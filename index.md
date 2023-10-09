@@ -14,6 +14,7 @@ Command cd:
 Command ls: 
 - image:
 
+![Image](ls_q1.png)
 - working directory: 
 - explain: When running ls command with no arguments, it showed us 'lecture1' because lecture1 was the next inner layer from /home working directory.
 - Indicate whether the output is an error or not, and if it’s an error, explain why it’s an error: 
@@ -21,6 +22,7 @@ Command ls:
 Command cat: 
 - image:
 
+![Image](cat_q1.png)
 - working directory
 - explain: When running cat command with no arguments, it showed nothing because we did not tell cat which file to read and output.
 - Indicate whether the output is an error or not, and if it’s an error, explain why it’s an error: 
