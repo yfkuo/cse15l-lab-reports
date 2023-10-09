@@ -34,25 +34,25 @@ Command `cd`:
 - image:
   
 ![Image](cd_q2.png)
-- working directory: `/home`
-- explain: The original working directory was `/home`. After running `cd` with a path to a directory, which is `cd /home`, the working directory stayed unchanged because `cd /home` is just `cd` working directory to the directory `/home`.
+- working directory: `/home/lecture1`
+- explain: After running `cd` with a path to a directory, which is `cd lecture1`, the working directory became `/home/lecture1`.
 - Indicate whether the output is an error or not, and if it’s an error, explain why it’s an error: N/A
 
 Command `ls`: 
 - image:
 
 ![Image](ls_q2.png)
-- working directory: `/home`
-- explain: After running `ls` with a path to a directory, which is `ls /home`, it showed us the file contain in `/home` was 'lecture1'.
-- Indicate whether the output is an error or not, and if it’s an error, explain why it’s an error: N/A
+- working directory: `/home/lecture1`
+- explain: After running `ls` with a path to a directory, which is `ls messages`, it showed us the list of the text files contain in `messages` directory: en-us.txt  es-mx.txt  ko.txt  zh-cn.txt.
+- Indicate whether the output is an error or not, and if it’s an error, explain why it’s an error: N/A. However, if we used `ls lecture1` an error message saying "ls: cannot access 'lecture1': No such file or directory" would show up because `lecture1` is a working directory.
 
 Command `cat`: 
 - image:
   
 ![Image](cat_q2.png)
-- working directory: `/home`
-- explain: After running `cat` with a path to a directory, which is `cat /home`, it showed us a message saying 'cat: /home: Is a directory'.
-- Indicate whether the output is an error or not, and if it’s an error, explain why it’s an error: N/A
+- working directory: `/home/lecture1`
+- explain: After running `cat` with a path to a directory, which is `cat messages`, it showed us a message saying 'cat: messages: Is a directory'
+- Indicate whether the output is an error or not, and if it’s an error, explain why it’s an error: `messages` was a directory, so there was no content to output. To `cat` out the content inside a file, we have to give a path to the file, for example, using `cat messages/en-us.txt`.
 
 ### 3. Share an example of using the command with a path to a file as an argument.
 
