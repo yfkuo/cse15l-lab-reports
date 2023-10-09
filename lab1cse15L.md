@@ -49,7 +49,7 @@ Command `ls`:
 ![Image](ls_q2.png)
 - working directory: `/home/lecture1`
 - explain: After running `ls` with a path to a directory, which is `ls messages`, it showed us the list of the text files contain in `messages` directory: en-us.txt  es-mx.txt  ko.txt  zh-cn.txt.
-- Indicate whether the output is an error or not, and if it’s an error, explain why it’s an error: N/A. However, if we used `ls lecture1` an error message saying "ls: cannot access 'lecture1': No such file or directory" would show up because `lecture1` is a working directory.
+- Indicate whether the output is an error or not, and if it’s an error, explain why it’s an error: N/A. However, if we used `ls lecture1` an error message saying "ls: cannot access 'lecture1': No such file or directory" would show up because `lecture1` is a working directory in this case.
 
 Command `cat`: 
 - image:
