@@ -28,7 +28,7 @@ Command `cat`:
 - explain: After running `cat` command with no arguments, it showed nothing because we did not tell `cat` which file to read and output.
 - Indicate whether the output is an error or not, and if it’s an error, explain why it’s an error: There was an error after 'cat' was execute. The 'cat' kept on searching without stopping because there was not argument to search, so I had to 'Ctrl' + 'c' in order to exit.
 
-2. Share an exmaple of using the command with a path to a directory as an argument.
+### 2. Share an exmaple of using the command with a path to a directory as an argument.
 
 Command `cd`:
 - image:
@@ -53,27 +53,30 @@ Command `cat`:
 - explain: After running `cat` with a path to a directory, which is `cat /home`, it showed us a message saying 'cat: /home: Is a directory'.
 - Indicate whether the output is an error or not, and if it’s an error, explain why it’s an error: N/A
 
-3. Share an example of using the command with a path to a file as an argument.
+### 3. Share an example of using the command with a path to a file as an argument.
 
 Command `cd`:
 - image:
-
-- working directory: ``
-- explain: 
-- Indicate whether the output is an error or not, and if it’s an error, explain why it’s an error: 
+  
+![Image](cd_q3.png)
+- working directory: `/home`
+- explain: After running `cd` with a path to a directory, which is `cd /home/lecture1/messages/en-us.txt`, it showed us an error message saying 'bash: cd: /home/lecture1/messages/en-us.txt: Not a directory'.
+- Indicate whether the output is an error or not, and if it’s an error, explain why it’s an error: There was an error message saying 'bash: cd: /home/lecture1/messages/en-us.txt: Not a directory' because the part of `/en-us.txt` file cannot be used as a directory.
 
 Command `ls`: 
 - image:
-
-- working directory: ``
-- explain: 
-- Indicate whether the output is an error or not, and if it’s an error, explain why it’s an error: 
+  
+![Image](ls_q3.png)
+- working directory: `/home`
+- explain: After running `ls` with a path to a directory, which is `ls /home/lecture1/messages/en-us.txt`, it showed us the list of the path: `/home/lecture1/messages/en-us.txt`.
+- Indicate whether the output is an error or not, and if it’s an error, explain why it’s an error: N/A
 
 Command `cat`: 
 - image:
-
-- working directory: ``
-- explain: 
-- Indicate whether the output is an error or not, and if it’s an error, explain why it’s an error: 
+  
+![Image](cat_q3.png)
+- working directory: `/home`
+- explain: After running `cat` with a path to a directory, which is `cat /home/lecture1/messages/en-us.txt`, it showed us the text message content inside the file of 'en-us.txt' saying 'Hello World!'
+- Indicate whether the output is an error or not, and if it’s an error, explain why it’s an error: N/A
 
 
