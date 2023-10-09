@@ -1,6 +1,9 @@
 # Lab Report 1
 
 ## Assignment Prompt Questions: For each of the commands `cd`, `ls`, and `cat`, and using the workspace you created in this lab.
+### File drop-down:
+![Image](file_dropdown.png)
+
 
 ### 1. Share an example of using the command with no arguments.
 
