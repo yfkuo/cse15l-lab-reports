@@ -1,7 +1,7 @@
 # Lab Report 1
 
 ## Assignment Prompt Questions: For each of the commands `cd`, `ls`, and `cat`, and using the workspace you created in this lab.
-### File drop-down:
+### The list of the files:
 ![Image](file_dropdown.png)
 
 
