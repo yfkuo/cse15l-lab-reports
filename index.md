@@ -5,6 +5,7 @@
 1. Share an example of using the command with no arguments.
 Command cd:
 - image:
+![Image](cd_q1.png)
 - working directory
 - explain:  When running cd command with no arguments, it showed nothing because we did not tell cd which working directory to change.
 - Indicate whether the output is an error or not, and if it’s an error, explain why it’s an error: 
