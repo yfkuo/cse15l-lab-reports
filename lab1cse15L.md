@@ -17,7 +17,7 @@ Command `ls`:
 
 ![Image](ls_q1.png)
 - working directory: `/home`
-- explain: After running `ls` command with no arguments, it showed us 'lecture1' because lecture1 was the next and only file in /home working directory.
+- explain: After running `ls` command with no arguments, it showed us 'lecture1' because lecture1 was the next and only folder in /home working directory.
 - Indicate whether the output is an error or not, and if it’s an error, explain why it’s an error: N/A
 
 Command `cat`: 
