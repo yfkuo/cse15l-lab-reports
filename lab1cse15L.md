@@ -26,7 +26,7 @@ Command `cat`:
 ![Image](cat_q1.png)
 - working directory: `/home`
 - explain: After running `cat` command with no arguments, it showed nothing because we did not tell `cat` which file to read and output.
-- Indicate whether the output is an error or not, and if it’s an error, explain why it’s an error: There was an error after 'cat' was execute. The 'cat' kept on searching without stopping because there was not argument to search, so I had to 'Ctrl' + 'c' in order to exit.
+- Indicate whether the output is an error or not, and if it’s an error, explain why it’s an error: There was an error after 'cat' was executed. The 'cat' might have kept on searching without terminating, so I had to 'Ctrl' + 'c' in order to terminate the situation.
 
 ### 2. Share an exmaple of using the command with a path to a directory as an argument.
 
