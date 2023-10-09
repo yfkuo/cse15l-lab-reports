@@ -2,7 +2,7 @@
 
 ## Assignment Prompt Questions: For each of the commands `cd`, `ls`, and `cat`, and using the workspace you created in this lab.
 
-1. Share an example of using the command with no arguments.
+### 1. Share an example of using the command with no arguments.
 
 Command `cd`:
 - image:
