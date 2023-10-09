@@ -32,6 +32,7 @@ Command `cat`:
 
 Command `cd`:
 - image:
+  
 ![Image](cd_q2.png)
 - working directory: `/home`
 - explain: The original working directory was `/home`. After running `cd` with a path to a directory, which is `cd /home`, the working directory stayed unchanged because `cd /home` is just `cd` working directory to the directory `/home`.
