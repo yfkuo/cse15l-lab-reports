@@ -14,7 +14,7 @@ Command `cd`:
 
 ![Image](cd_q1.png)
 - working directory: `/home`
-- explain: After running `cd` command with no arguments, it showed nothing because we did not tell `cd` which working directory to change.
+- explain: After running `cd` command with no arguments, it will return to the previous directory.
 - Indicate whether the output is an error or not, and if it’s an error, explain why it’s an error: N/A
 
 Command `ls`: 
@@ -31,7 +31,7 @@ Command `cat`:
 ![Image](cat_q1.png)
 - working directory: `/home`
 - explain: After running `cat` command with no arguments, it showed nothing because we did not tell `cat` which file to read and output.
-- Indicate whether the output is an error or not, and if it’s an error, explain why it’s an error: There was an error after 'cat' was executed. The 'cat' might have kept on searching without terminating, so I had to 'Ctrl' + 'c' in order to terminate the situation.
+- Indicate whether the output is an error or not, and if it’s an error, explain why it’s an error: N/A
 
 ### 2. Share an exmaple of using the command with a path to a directory as an argument.
 
