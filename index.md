@@ -28,7 +28,7 @@ Command `ls`:
 Command `cat`: 
 - image:
 
-![Image](Screen Shot 2023-10-18 at 10.04.52 AM.png)
+![Image](cat_q1.png)
 - working directory: `/home`
 - explain: After running `cat` command with no arguments, it showed nothing because we did not tell `cat` which file to read and output.
 - Indicate whether the output is an error or not, and if it’s an error, explain why it’s an error: N/A
